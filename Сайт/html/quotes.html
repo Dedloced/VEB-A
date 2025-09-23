@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека Цитат - Коллекция</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Библиотека Цитат</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="quotes.html" class="nav-link">Цитаты</a></li>
+                    <li><a href="form.html" class="nav-link">Предложить цитату</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                    <li><a href="extra.html" class="nav-link">Дополнительно</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="page">
+            <h2>Коллекция цитат</h2>
+            <p>Выберите категорию для просмотра цитат:</p>
+            
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">Все</button>
+                <button class="category-btn" data-category="мудрость">Мудрость</button>
+                <button class="category-btn" data-category="успех">Успех</button>
+                <button class="category-btn" data-category="любовь">Любовь</button>
+                <button class="category-btn" data-category="мотивация">Мотивация</button>
+                <button class="category-btn" data-category="жизнь">Жизнь</button>
+            </div>
+            
+            <div class="quotes-container" id="quotes-container">
+                <!-- Цитаты будут добавлены через JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Библиотека Цитат. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
