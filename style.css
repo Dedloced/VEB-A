@@ -71,6 +71,7 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
+    flex-shrink: 0;
 }
 
 /* Стили для главной страницы */
