@@ -64,7 +64,7 @@ footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
     margin-top: 2rem;
 }
 
@@ -275,4 +275,13 @@ display: none;
     .features, .quotes-container, .stats {
         grid-template-columns: 1fr;
     }
+}
+
+.counters-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap; /* Запрещаем перенос */
+    max-width: 100%;
+    overflow-x: auto; /* Скролл если не помещаются */
 }
