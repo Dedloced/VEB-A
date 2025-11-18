@@ -57,6 +57,7 @@ nav {
 
 .page {
     padding: 2rem 0;
+    min-height: calc(100vh - 180px);
 }
 
 footer {
