@@ -57,7 +57,7 @@ nav {
 
 .page {
     padding: 2rem 0;
-    min-height: calc(100vh - 180px);
+    min-height: 70vh; /* Минимальная высота 70% от высоты viewport */
 }
 
 footer {
@@ -65,7 +65,9 @@ footer {
     color: white;
     text-align: center;
     padding: 3rem 0;
-    margin-top: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 /* Стили для главной страницы */
